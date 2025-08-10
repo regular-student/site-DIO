@@ -1,0 +1,136 @@
+<!-- Entendendo o Desafio
+ 
+A ideia deste Desafio de Projeto é elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas:
+ 
+Utilizar todas as tags explicadas nas aulas: <h1> até <h6>, <p>, <mark>, <small>, <i>, <u>, <strong>, <ol>, <ul>, <li>, <a>, <hr>, <sub>, <sup>, <blockquote>;
+Utilizar novas tags sugeridas: <font>, <del>, <p>, <abbr> (a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto).
+GitHub
+Todo código-fonte desenvolvido durante o curso foi versionado no GitHub, no seguinte endereço:
+https://github.com/digitalinnovationone/trilha-html-modulo-1
+ 
+Dúvidas sobre como usar o Github?
+Veja essa aula com o expert Felipe Aguiar, clicando aqui.
+ 
+Bons estudos wink -->
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>    
+    <main>
+        <h1>DIO Santander 2025 - Front End</h1>
+        <hr>
+        <article>
+            <header>
+                <h2>Introdução ao HTML na prática</h2>
+            </header>
+            <p>O curso apresenta uma breve história sobre como a internet surgiu, as ferramentas que serão utilizadas durante o curso, como usar o inspetor de elementos ao seu favor pra identificar tamanho de DIV etc. A estrutura básica do HTML e suas tags, atributos que vão junto com a tag, textos, listas ordenadas e não ordenadas</p>
+        </article>
+        <figure>
+            <img src="https://www.w3schools.com/html/img_notepad.png" alt="Imagem com markdow HTML">
+        </figure>
+
+        <article>
+            <header>
+                <h2>Trabalhando com formulários HTML</h2>
+            </header>
+            <p>Aqui o curso fala sobre as tags form, input, checkbox, radio, select, textarea e seus tipos</p>
+            <form onsubmit="alert('are you serous?')">
+                <label for="name">Nome: <input type="text"></label>
+                <br>
+                <label for="email">Email: <input type="email"></label>
+                <br>
+                <label for="phone">Phone: <input type="number"></label>
+                <br> <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </article>
+
+        <article>
+            <header>
+                <h2>Estruturando seu HTML + Formatações</h2>
+            </header>
+            <p>
+                Aqui o curso fala mais sobre <span style="background-color: blueviolet; color: aliceblue;">textos</span> e como decorar eles com tags como <b>bold</b> e <strong>strong</strong> <i>italico</i> e <u>underline</u> formatação com <font face="Arial">exemplo de font</font> div e span, 
+                <fieldset>
+                    <legend>Hamburguer</legend>
+                    <input type="checkbox"> + Alface
+                    <br>
+                    <input type="checkbox"> + Queijo
+                </fieldset>
+            </p>
+        </article>
+
+        <article>
+            <header>
+                <h2>Trabalhando com Mídias usando HTML</h2>
+            </header>
+            <p>
+                Aqui o curso ensina sobre as tags de mídia, tags <b>img audio video track iframe</b>
+                <img src="https://images.squarespace-cdn.com/content/v1/65bb3be34fa84916bd88a8b0/e2039e0c-d36f-433d-aa0f-a8302cbf27fa/3dgifmaker86255+%282%29.gif" alt="gif com um emoji smile no meio">
+            </p>
+        </article>
+
+        <article>
+            <header>
+                <h2>Criando tabelas com HTML</h2>
+            </header>
+            <p>
+                O curso aborda criação de tabelas, sem estilo CSS por enquanto. <span style="background-color: yellow;">Exemplo</span>
+            </p>
+
+            <table border="3" align="center">
+                <caption>Notas da turma - 1º semestre</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Nota</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Ana Silva</td>
+                        <td>8.5</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bruno Souza</td>
+                        <td>7.0</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Carla Pereira</td>
+                        <td>9.2</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Média da turma</td>
+                        <td>8.23</td>
+                    </tr>
+                </tfoot>
+            </table>  
+        </article>
+
+        <article>
+            <h2>Entendendo HTML semântico</h2>
+            <p>O curso aborda HTML semântico, o que foi usado aqui arquivo.</p>
+            <img src="https://miro.medium.com/1*Zdcpe1oOwoVUgC-oggCASw.jpeg" alt="semantic html and non semantic html">
+        </article>
+    </main>
+
+    <footer>
+        <p style="padding-left: 25%; font-size: smaller;">Esses foram os conteúdos do curso até agora e esse é o meu projeto mostrando a utilização de tags e HTML semântico</p>
+    </footer>
+</body>
+</html>
